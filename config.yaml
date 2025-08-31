@@ -1,0 +1,13 @@
+# Server port
+port: 8080
+
+# Database configuration
+db:
+  host: "localhost"
+  port: 5432
+  dbname: "task_manager_db"
+  user: "task_user"
+  password: "task_password"
+
+# JWT secret will be generated automatically if empty
+jwt_secret: ""
